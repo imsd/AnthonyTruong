@@ -1,0 +1,17 @@
+{
+ "origin":"#greeting.capitalize# #place##punc#",
+  "punc" : ["?",
+            "...",
+            "!"],
+  "place" : ["City Tech",
+             "World",
+             "Universe",
+             "Galaxy"],
+  "greeting": ["sup", 
+               "hola",
+               "nihao",
+               "yo",
+               "gimmme your wallet", 
+               "u up?"
+               ]
+}

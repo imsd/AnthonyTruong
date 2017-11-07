@@ -1,0 +1,30 @@
+{
+ "origin": "#interjection# #name#: I'm a #profession# a not a #profession#.",
+  "interjection" : [
+    "Dammit",
+    "Fudge",
+    "Alas...",
+    "Oh dear God",
+    "Good greif",
+    "Blarg"
+    ],
+  "name" : [
+    "Captain",
+    "Spock",
+    "Dat Boi",
+    "Mr.Krabs",
+    "McCoy"
+    ],
+  "profession" : [
+    "Lawyer",
+    "Doctor",
+    "Sound Cloud Rapper",
+    "builder",
+    "feeder",
+    "demoiltionist",
+    "programmer",
+    "messager",
+    "chef",
+    "anime character"
+    ]
+}
