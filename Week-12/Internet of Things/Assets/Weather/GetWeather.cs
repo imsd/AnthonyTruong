@@ -10,9 +10,12 @@ public class GetWeather : MonoBehaviour {
 	public GameObject LightCloud;
 	public GameObject HeavyCloud;
 	public GameObject Snow;
+	public GameObject Hail;
+	public GameObject HeavyRain; 
 
 
-	public string url = "https://www.metaweather.com/api/location/1132599/";
+
+	public string url = "https://www.metaweather.com/api/location/2459115/";
 	IEnumerator Start() {
 
 		// fetch the actual info, like you would from a browser
@@ -50,5 +53,10 @@ public class GetWeather : MonoBehaviour {
 		if (WeatherType == "Light Cloud") {
 			LightCloud.SetActive (true);
 		}
-	}
+		if (WeatherType == "Hail") {
+			Hail.SetActive (true);
+	 }
+		if (WeatherType == "HeavyRain") {
+			HeavyRain.SetActive (true); 
+		}
 }
