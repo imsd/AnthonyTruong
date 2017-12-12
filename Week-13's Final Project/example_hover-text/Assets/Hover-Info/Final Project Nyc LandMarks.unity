@@ -152,9 +152,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HoverText: Brooklyn Botanic Garden
-  SecondaryText: 
+  SecondaryText: A kid-friendly annual Cherry Blossom Festival, a Japanese garden
+    & more
   DisplayTextObject: {fileID: 1734626088}
-  SecondaryDisplayTextObject: {fileID: 0}
+  SecondaryDisplayTextObject: {fileID: 1018987988}
+  myImage: {fileID: 0}
 --- !u!23 &4568193
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -232,7 +234,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 95323633}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.06, y: -0.16, z: 1.79}
+  m_LocalPosition: {x: 0.32, y: -0.16, z: 1.85}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2006445408}
@@ -250,9 +252,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HoverText: Madison Square Garden
-  SecondaryText: 
+  SecondaryText: Madison Square Garden is a multi-purpose indoor arena iu Manhattan
+    used for sports or gaming
   DisplayTextObject: {fileID: 1734626088}
-  SecondaryDisplayTextObject: {fileID: 0}
+  SecondaryDisplayTextObject: {fileID: 1018987988}
+  myImage: {fileID: 0}
 --- !u!23 &95323636
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -330,7 +334,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 172292917}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.22, y: -0.16, z: 1.16}
+  m_LocalPosition: {x: 0.6, y: -0.16, z: 2.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2006445408}
@@ -348,9 +352,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HoverText: Time Square
-  SecondaryText: 
+  SecondaryText: Times Square a major commercial intersection, tourist destination,
+    entertainment center and neighborhood
   DisplayTextObject: {fileID: 1734626088}
-  SecondaryDisplayTextObject: {fileID: 0}
+  SecondaryDisplayTextObject: {fileID: 1018987988}
+  myImage: {fileID: 0}
 --- !u!23 &172292920
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -589,7 +595,7 @@ GameObject:
   - component: {fileID: 286150293}
   - component: {fileID: 286150292}
   m_Layer: 0
-  m_Name: Museum of the Moving Image
+  m_Name: Jacob Riis Park
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -606,7 +612,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2006445408}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &286150292
 MonoBehaviour:
@@ -619,10 +625,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e15daa90d65d54a9386352cb7c753ac5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HoverText: Museum of the Moving Image
-  SecondaryText: 
+  HoverText: Jacob Riis Park
+  SecondaryText: Jacob Riis Park is a seaside park at the southwestern end the Rockaway
+    Peninsula in the New York City
   DisplayTextObject: {fileID: 1734626088}
-  SecondaryDisplayTextObject: {fileID: 0}
+  SecondaryDisplayTextObject: {fileID: 1018987988}
+  myImage: {fileID: 0}
 --- !u!23 &286150293
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -700,7 +708,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 579595757}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.31, y: -0.16, z: 2.41}
+  m_LocalPosition: {x: -0.09, y: -0.16, z: 1.39}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2006445408}
@@ -718,9 +726,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HoverText: Empire State Building
-  SecondaryText: 
+  SecondaryText: Empire State Building is a 102-story Art Deco skyscraper"Tower of
+    Nyc"
   DisplayTextObject: {fileID: 1734626088}
-  SecondaryDisplayTextObject: {fileID: 0}
+  SecondaryDisplayTextObject: {fileID: 1018987988}
+  myImage: {fileID: 0}
 --- !u!23 &579595760
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -772,6 +782,90 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 579595757}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &735220220
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 735220224}
+  - component: {fileID: 735220223}
+  - component: {fileID: 735220222}
+  - component: {fileID: 735220221}
+  m_Layer: 0
+  m_Name: WTC Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &735220221
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 735220220}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: c133a2bb8555d46de94aab6af6a01ae0, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &735220222
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 735220220}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &735220223
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 735220220}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &735220224
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 735220220}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -3.04, y: 1.05, z: 2.05}
+  m_LocalScale: {x: 3.6357467, y: 3.635747, z: 3.635747}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &876240913
 GameObject:
   m_ObjectHideFlags: 0
@@ -802,7 +896,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2006445408}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &876240915
 MonoBehaviour:
@@ -816,9 +910,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HoverText: Bronx Zoo
-  SecondaryText: 
+  SecondaryText: Bronx Zoo is the largest metropolitan zoo in the United States and
+    among the largest in the world
   DisplayTextObject: {fileID: 1734626088}
-  SecondaryDisplayTextObject: {fileID: 0}
+  SecondaryDisplayTextObject: {fileID: 1018987988}
+  myImage: {fileID: 0}
 --- !u!23 &876240916
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -881,6 +977,7 @@ GameObject:
   - component: {fileID: 1018987989}
   - component: {fileID: 1018987988}
   - component: {fileID: 1018987987}
+  - component: {fileID: 1018987991}
   m_Layer: 0
   m_Name: Display Text (1)
   m_TagString: Untagged
@@ -916,7 +1013,7 @@ TextMesh:
   m_Anchor: 0
   m_Alignment: 0
   m_TabSize: 4
-  m_FontSize: 50
+  m_FontSize: 33
   m_FontStyle: 0
   m_RichText: 1
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
@@ -962,12 +1059,29 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1018987986}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.06, y: -0.13, z: -5.5}
+  m_LocalPosition: {x: -7.64, y: 0.48, z: -6.33}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!95 &1018987991
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1018987986}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7abe75ed480474bd2bdba02a0db66268, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1179707418
 GameObject:
   m_ObjectHideFlags: 0
@@ -1045,7 +1159,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1179707418}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.63, y: -0.16, z: 0.68}
+  m_LocalPosition: {x: -0.64, y: -0.16, z: 0.61}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2006445408}
@@ -1063,9 +1177,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HoverText: World Trade Center
-  SecondaryText: secondary text
+  SecondaryText: World Trade Center is part of seven buildings in lower manhatten,
+    it's feature the landmark twin towers
   DisplayTextObject: {fileID: 1734626088}
   SecondaryDisplayTextObject: {fileID: 1018987988}
+  myImage: {fileID: 735220220}
 --- !u!1 &1229274840
 GameObject:
   m_ObjectHideFlags: 0
@@ -1145,6 +1261,106 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1233202520
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1233202521}
+  - component: {fileID: 1233202525}
+  - component: {fileID: 1233202524}
+  - component: {fileID: 1233202523}
+  - component: {fileID: 1233202522}
+  m_Layer: 0
+  m_Name: Japanese Hill-and-Pond Garden
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1233202521
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1233202520}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.14, y: -0.16, z: -1.44}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2006445408}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1233202522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1233202520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e15daa90d65d54a9386352cb7c753ac5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HoverText: Japanese Hill-and-Pond Garden
+  SecondaryText: Japanese Hill-and-Pond Garden is Cherry blossoms, maples & other
+    traditional flora fill this Japanese-inspired urban refuge
+  DisplayTextObject: {fileID: 1734626088}
+  SecondaryDisplayTextObject: {fileID: 1018987988}
+  myImage: {fileID: 0}
+--- !u!23 &1233202523
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1233202520}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!135 &1233202524
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1233202520}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1233202525
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1233202520}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1344923527
 GameObject:
   m_ObjectHideFlags: 0
@@ -1189,9 +1405,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HoverText: Coney Island
-  SecondaryText: 
+  SecondaryText: Coney Island is an amusement park  relaxation and entertainment destination  Tourists
+    crowd on beach
   DisplayTextObject: {fileID: 1734626088}
-  SecondaryDisplayTextObject: {fileID: 0}
+  SecondaryDisplayTextObject: {fileID: 1018987988}
+  myImage: {fileID: 0}
 --- !u!23 &1344923530
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1274,9 +1492,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HoverText: Traditional Chinese Garden
-  SecondaryText: 
+  SecondaryText: New York Chinese Scholar's Garden is a part of the Staten Island
+    Botanical Garden
   DisplayTextObject: {fileID: 1734626088}
-  SecondaryDisplayTextObject: {fileID: 0}
+  SecondaryDisplayTextObject: {fileID: 1018987988}
+  myImage: {fileID: 0}
 --- !u!23 &1399690068
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1335,11 +1555,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1399690066}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.78, y: -0.3454267, z: -3.55}
+  m_LocalPosition: {x: -4.591233, y: -0.16, z: -3.0499582}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 2006445408}
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1512641846
 GameObject:
@@ -1371,7 +1591,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2006445408}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1512641848
 MonoBehaviour:
@@ -1384,10 +1604,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e15daa90d65d54a9386352cb7c753ac5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HoverText: Queen's Center
-  SecondaryText: 
+  HoverText: 'Queen''s Center is a '
+  SecondaryText: Queens Center is coliseum-like indoor shopping mall houses dozens
+    of retail stores plus a food court.
   DisplayTextObject: {fileID: 1734626088}
-  SecondaryDisplayTextObject: {fileID: 0}
+  SecondaryDisplayTextObject: {fileID: 1018987988}
+  myImage: {fileID: 0}
 --- !u!23 &1512641849
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1465,11 +1687,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1597886443}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.95, y: -0.3454267, z: -2.86}
+  m_LocalPosition: {x: -3.7612324, y: -0.16, z: -2.3599582}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 2006445408}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1597886445
 MonoBehaviour:
@@ -1483,9 +1705,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HoverText: New York Harbor
-  SecondaryText: 
+  SecondaryText: New York Harbor, part of the Port of New York and New Jersey also  the
+    mouth of the Hudson River
   DisplayTextObject: {fileID: 1734626088}
-  SecondaryDisplayTextObject: {fileID: 0}
+  SecondaryDisplayTextObject: {fileID: 1018987988}
+  myImage: {fileID: 0}
 --- !u!23 &1597886446
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1567,7 +1791,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2006445408}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1713766818
 MonoBehaviour:
@@ -1581,9 +1805,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HoverText: Statue of Liberty
-  SecondaryText: 
+  SecondaryText: Statue of Liberty is a colossal neoclassical sculpture modeled after
+    the sculptor's mother, Charlotte
   DisplayTextObject: {fileID: 1734626088}
-  SecondaryDisplayTextObject: {fileID: 0}
+  SecondaryDisplayTextObject: {fileID: 1018987988}
+  myImage: {fileID: 0}
 --- !u!23 &1713766819
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1648,7 +1874,7 @@ GameObject:
   - component: {fileID: 1724280130}
   - component: {fileID: 1724280129}
   m_Layer: 0
-  m_Name: Bronx Botanic Garden
+  m_Name: Yankee Stadium
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1665,7 +1891,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2006445408}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1724280129
 MonoBehaviour:
@@ -1678,10 +1904,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e15daa90d65d54a9386352cb7c753ac5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HoverText: Bronx Botanic Garden
-  SecondaryText: 
+  HoverText: Yankee Stadium
+  SecondaryText: 'Yankee Stadium is a  home ballpark for the New York Yankees it has
+    hosted additional events, including college football games, soccer matches, two
+    outdoor NHL games, and concerts '
   DisplayTextObject: {fileID: 1734626088}
-  SecondaryDisplayTextObject: {fileID: 0}
+  SecondaryDisplayTextObject: {fileID: 1018987988}
+  myImage: {fileID: 0}
 --- !u!23 &1724280130
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1744,6 +1973,7 @@ GameObject:
   - component: {fileID: 1734626089}
   - component: {fileID: 1734626088}
   - component: {fileID: 1734626091}
+  - component: {fileID: 1734626092}
   m_Layer: 0
   m_Name: Display Text
   m_TagString: Untagged
@@ -1758,7 +1988,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1734626087}
-  m_Text: Hello World
+  m_Text: "NYC LANDMARKS\x03"
   m_OffsetZ: 0
   m_CharacterSize: 0.08
   m_LineSpacing: 1
@@ -1771,7 +2001,7 @@ TextMesh:
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   m_Color:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4294671430
 --- !u!23 &1734626089
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1811,7 +2041,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1734626087}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -6, y: 0.1, z: -5.19}
+  m_LocalPosition: {x: -6.06, y: 0.1, z: -5.18}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1831,6 +2061,125 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
+--- !u!95 &1734626092
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1734626087}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4730784cee7a74dcaa850ca5127400bb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!1 &1741201611
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1741201616}
+  - component: {fileID: 1741201615}
+  - component: {fileID: 1741201614}
+  - component: {fileID: 1741201613}
+  - component: {fileID: 1741201612}
+  m_Layer: 0
+  m_Name: Plane (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!95 &1741201612
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1741201611}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7f44e933c4b214106bc0247d22ce8869, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!23 &1741201613
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1741201611}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: df256debc026b48e0b46fcdc864d1b08, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &1741201614
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1741201611}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &1741201615
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1741201611}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1741201616
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1741201611}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.289808, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &1953189482
 GameObject:
   m_ObjectHideFlags: 0
@@ -1861,7 +2210,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2006445408}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1953189484
 MonoBehaviour:
@@ -1875,9 +2224,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HoverText: New York Hall of Science
-  SecondaryText: 
+  SecondaryText: New York Hall of Science is a science museum located in Flushing
+    Meadows-Corona Park in the New York City borough of Queens
   DisplayTextObject: {fileID: 1734626088}
-  SecondaryDisplayTextObject: {fileID: 0}
+  SecondaryDisplayTextObject: {fileID: 1018987988}
+  myImage: {fileID: 0}
 --- !u!23 &1953189485
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1960,12 +2311,15 @@ Transform:
   - {fileID: 172292918}
   - {fileID: 1344923528}
   - {fileID: 4568191}
+  - {fileID: 1233202521}
   - {fileID: 1713766817}
   - {fileID: 876240914}
   - {fileID: 1724280128}
   - {fileID: 1512641847}
   - {fileID: 1953189483}
   - {fileID: 286150291}
+  - {fileID: 1399690071}
+  - {fileID: 1597886444}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
