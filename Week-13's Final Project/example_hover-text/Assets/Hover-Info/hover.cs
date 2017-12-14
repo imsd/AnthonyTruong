@@ -14,6 +14,8 @@ public class hover : MonoBehaviour {
 
 	public GameObject myImage;
 
+	public Animator anim;
+
 	void OnMouseDown() {
 		// switch the 3d text so that its text value
 		// is now whatever text value this hover instance holds
@@ -26,6 +28,9 @@ public class hover : MonoBehaviour {
 		SecondaryDisplayTextObject.color = Color.white;
 
 		myImage.SetActive (true);
+
+		// restart animation
+		anim.Play ("info text 2", -1, 0f);
 	}
 
 	void OnMouseExit() {
